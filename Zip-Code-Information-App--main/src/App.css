@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Arial";
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.location-info {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+input[type=text] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  border-bottom: 0.2em solid #00cccc;
+  background: rgb(206, 231, 236);
+  border-radius: 0.2em 0.2em 0 0;
+  padding: 0.4em;
+  color: #00cccc;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0.2em solid #00cccc;
+  background: rgba(0, 0, 0, 0);
+  padding: 0.85em 1.5em;
+  color: #00cccc;
+  border-radius: 2em;
+  transition: 1s;
+}
+
+button:hover,
+button:focus,
+button:active {
+  background: #00cccc;
+  color: #fff;
+}
+
+table {
+  font-family: "Arial";
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #00cccc;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05),
+    0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+}
+
+table tr:hover {
+  background: #f4f4f4;
+}
+
+table tr:hover td {
+  color: #555;
+}
+
+table th,
+table td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 25px 25px;
+  border-collapse: collapse;
+  font-size: 15px;
+  max-width: 300px;
+}
+
+table th {
+  background: #00cccc;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+table th.last {
+  border-right: none;
+}
